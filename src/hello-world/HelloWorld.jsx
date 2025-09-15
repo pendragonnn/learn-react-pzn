@@ -4,11 +4,14 @@
   - jadi kita tidak perlu khawatir ketika membuat Component, karena semua element pasti didukung
 */
 
+import JsxExample from "./JsxExample"
+
 export default function HelloWorld() {
   return (
     <div>
       <HeaderHelloWorld />
       <ParagraphHelloWorld />
+      <JsxExample />
     </div>
   )
 }
