@@ -4,6 +4,7 @@
   - jadi kita tidak perlu khawatir ketika membuat Component, karena semua element pasti didukung
 */
 
+import JavascriptInJSX from "./JavascriptInJSX"
 import JsxExample from "./JsxExample"
 
 export default function HelloWorld() {
@@ -12,6 +13,7 @@ export default function HelloWorld() {
       <HeaderHelloWorld />
       <ParagraphHelloWorld />
       <JsxExample />
+      <JavascriptInJSX />
     </div>
   )
 }
